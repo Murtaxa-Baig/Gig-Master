@@ -1,0 +1,254 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    display: flex;
+}
+
+.sideBar {
+    width: 20%;
+    padding: 20px;
+    background: linear-gradient(180deg, #3E3D45 0%, #202020 100%);
+    height: auto;
+    color: white;
+    /* text-align: center; */
+}
+
+.content {
+    width: 80%;
+    background-color: #ebedf0;
+}
+
+.profileImg {
+    border-radius: 50%;
+}
+
+.ImageSection {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 70%;
+    margin-left: 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 300;
+}
+
+.webName {
+    font-weight: 700;
+}
+
+hr {
+    margin: 0px 10px;
+    color: white;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #333;
+    color: white;
+}
+
+.navbar-brand .webName {
+    font-size: 1.5em;
+}
+
+.navbar-selects select {
+    /* margin: 0 5px; */
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.navbar-button button {
+    padding: 5px 10px;
+    background-color: #E91F63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+}
+
+.mobile-menu select,
+.mobile-menu button {
+    /* display: none; */
+    margin: 5px 0;
+    width: 80%;
+}
+
+.navBtn {
+    height: 40px;
+    padding: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #E91F63;
+    color: white;
+}
+
+.webBody {
+    margin: 20px 5% 0px 5%;
+}
+
+
+input {
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #7B809A;
+}
+
+.searchBtn {
+    width: 19%;
+    margin: left 5px;
+    height: 40px;
+    padding: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #E91F63;
+    color: white;
+}
+
+
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1 1 calc(25.3% - 40px);
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
+.cardHeading {
+    font-size: 20px;
+    font-weight: 400;
+    color: #344767;
+    font: Roboto;
+
+}
+
+
+.cardDisc {
+    padding: 12px;
+    font-weight: 400;
+    color: #7B809A;
+}
+
+
+.dashboard {
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboardBtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    width: 93%;
+    margin-left: 8px;
+    background-color: #4F4F52;
+    padding-left: 12px;
+}
+
+.Btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    margin-left: 8px;
+    background-color: transparent;
+    padding-left: 12px;   
+}
+.pagesBtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 93%;
+    margin-left: 8px;
+    background-color: transparent;
+    /* padding-left: 12px; */
+}
+
+@media (max-width: 768px) {
+
+    .navbar-selects,
+    .navbar-button {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 40px);
+    }
+
+    .container {
+        display: block;
+    }
+    .sideBar{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    .navBtn{
+        display: block;
+        margin: 0px auto;
+    }
+    .searchBtn{
+        display: block;
+        margin: 5px auto;
+        width: 50%;
+    }
+}

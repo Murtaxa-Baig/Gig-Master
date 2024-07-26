@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murtaxa Baig</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="body">
+            <section class="sideBar">
+                <div class="ImageSection">
+                    <img src="./assets/unnamed.jpg" height="50px" width="50px" alt="" class="profileImg">
+                    <select name="" id="" width="80%">
+                        <option value="">Name</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="dashboard">
+                    <button class="dashboardBtn">
+                        <img src="./assets/dashboard.png" alt="">
+                        <p style="color: white; padding-left: 10px;">Dashboard</p>
+                    </button>
+                    <button class="Btn">
+                        <p style="color: white;">A</p>
+                        <p style="color: white; padding-left: 10px;">Analytics</p>
+                    </button>
+                    <button class="Btn">
+                        <p style="color: white;">D</p>
+                        <p style="color: white; padding-left: 10px;">Discover</p>
+                    </button>
+                    <button class="Btn">
+                        <p style="color: white;">S</p>
+                        <p style="color: white; padding-left: 10px;">Sales</p>
+                    </button>
+                    <button class="Btn">
+                        <p style="color: white;">A</p>
+                        <p style="color: white; padding-left: 10px;">Automotive</p>
+                    </button>
+                    <button class="Btn">
+                        <p style="color: white;">S</p>
+                        <p style="color: white; padding-left: 10px;">Smart Home</p>
+                    </button>
+                </div>
+                <h6 style="margin-top: 225px;">PAGES</h6>
+                <div>
+                    <button class="pagesBtn">
+                        <img src="./assets/Vector.png" alt="" style="margin-right: 10px;">
+                        <select name="" id="" style="width: 100%;">
+                            <option value="">Pages</option>
+                        </select>
+                    </button>
+                    <button class="pagesBtn">
+                        <img src="./assets/apps.png" alt="" style="margin-right: 5px;">
+                        <select name="" id="" style="width: 100%;">
+                            <option value="">Applications</option>
+                        </select>
+                    </button>
+                    <button class="pagesBtn">
+                        <img src="./assets/basket.png" alt="" style="margin-right: -2px;">
+                        <select name="" id="" style="width: 100%;">
+                            <option value="">Ecommerce</option>
+                        </select>
+                    </button>
+                    <button class="pagesBtn">
+                        <img src="./assets/clipboard-outline.png" alt="" style="margin-right: 5px;">
+                        <select name="" id="" style="width: 100%;">
+                            <option value="">Authentication</option>
+                        </select>
+                    </button>
+                </div>
+                <hr>
+                <h6>DOCS</h6>
+                <div>
+                    <button class="pagesBtn">
+                        <img src="./assets/text-box.png" alt="">
+                        <select name="" id="" style="width: 100%;">
+                            <option value="">Basic</option>
+                        </select>
+                    </button>
+                    <button class="pagesBtn">
+                        <img src="./assets/cube-scan.png" alt="">
+                        <select name="" id="" style="width: 100%;">
+                            <option value="">Components</option>
+                        </select>
+                    </button>
+                    <button class="pagesBtn">
+                        <img src="./assets/clipboard-outline.png" alt="" style="margin-right: 14px;">
+                        <p style="color: white;">Changelog</p>
+                    </button>
+                </div>
+
+            </section>
+            <section class="content">
+                <nav class="navbar">
+                    <div class="navbar-brand">
+                        <span class="webName">Material Kit 2 PRO</span>
+                    </div>
+                    <div class="navbar-selects">
+                        <div style="display: flex; align-items: center;">
+                            <select style="background-color: transparent;">
+                                <option value="">Pages</option>
+                            </select>
+                            <select style="background-color: transparent;">
+                                <option value="">Account</option>
+                            </select>
+                            <select style="background-color: transparent;">
+                                <option value="">Section</option>
+                            </select>
+                            <select style="background-color: transparent;">
+                                <option value="">Docs</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="navbar-button">
+                        <button class="navBtn">BUY NOW</button>
+                    </div>
+
+                    <div class="navbar-toggle" onclick="toggleMenu()">
+                        &#9776;
+                    </div>
+                    <div class="mobile-menu" id="mobileMenu">
+                        <select>
+                            <option value="1">Pages</option>
+                        </select>
+                        <select>
+                            <option value="1">Account</option>
+                        </select>
+                        <select>
+                            <option value="1">Section</option>
+                        </select>
+                        <select>
+                            <option value="1">Docs</option>
+                        </select>
+                        <button class="navBtn">BUY NOW</button>
+                    </div>
+                </nav>
+
+                <div class="webBody">
+                    <p style="color: #7B809A; font-weight: 400;">Location</p>
+                    <div>
+                        <input type="text" placeholder="Alec" />
+                        <button class="searchBtn">Search</button>
+                    </div>
+                    <div class="container">
+                        <div class="card">
+                            <img src="./assets/blog card1.png" width="100%" alt="" style="margin-top: -16px;">
+                            <h2 class="cardHeading">Cozy 5 Stars Apartment</h2>
+                            <p class="cardDisc">The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                and near to
+                                "Naviglio" where you can enjoy the main night life in Barcelona.</p>
+
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; padding-left: 5px; padding-right: 5px;">
+                                <p style="color: #7B809A;">$899/night</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="./assets/map-marker.svg" alt="">
+                                    <p style="color: #7B809A;">Barcelona, Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/blog card1.png" width="100%" alt="" style="margin-top: -16px;">
+                            <h2 class="cardHeading">Cozy 5 Stars Apartment</h2>
+                            <p class="cardDisc">The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                and near to
+                                "Naviglio" where you can enjoy the main night life in Barcelona.</p>
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; padding-left: 5px; padding-right: 5px;">
+                                <p style="color: #7B809A;">$899/night</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="./assets/map-marker.svg" alt="">
+                                    <p style="color: #7B809A;">Barcelona, Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/blog card1.png" width="100%" alt="" style="margin-top: -16px;">
+                            <h2 class="cardHeading">Cozy 5 Stars Apartment</h2>
+                            <p class="cardDisc">The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                and near to
+                                "Naviglio" where you can enjoy the main night life in Barcelona.</p>
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; padding-left: 5px; padding-right: 5px;">
+                                <p style="color: #7B809A;">$899/night</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="./assets/map-marker.svg" alt="">
+                                    <p style="color: #7B809A;">Barcelona, Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="card">
+                            <img src="./assets/blog card1.png" width="100%" alt="" style="margin-top: -16px;">
+                            <h2 class="cardHeading">Cozy 5 Stars Apartment</h2>
+                            <p class="cardDisc">The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                and near to
+                                "Naviglio" where you can enjoy the main night life in Barcelona.</p>
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; padding-left: 5px; padding-right: 5px;">
+                                <p style="color: #7B809A;">$899/night</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="./assets/map-marker.svg" alt="">
+                                    <p style="color: #7B809A;">Barcelona, Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/blog card1.png" width="100%" alt="" style="margin-top: -16px;">
+                            <h2 class="cardHeading">Cozy 5 Stars Apartment</h2>
+                            <p class="cardDisc">The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                and near to
+                                "Naviglio" where you can enjoy the main night life in Barcelona.</p>
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; padding-left: 5px; padding-right: 5px;">
+                                <p style="color: #7B809A;">$899/night</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="./assets/map-marker.svg" alt="">
+                                    <p style="color: #7B809A;">Barcelona, Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/blog card1.png" width="100%" alt="" style="margin-top: -16px;">
+                            <h2 class="cardHeading">Cozy 5 Stars Apartment</h2>
+                            <p class="cardDisc">The place is close to Barceloneta Beach and bus stop just 2 min by walk
+                                and near to
+                                "Naviglio" where you can enjoy the main night life in Barcelona.</p>
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; padding-left: 5px; padding-right: 5px;">
+                                <p style="color: #7B809A;">$899/night</p>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="./assets/map-marker.svg" alt="">
+                                    <p style="color: #7B809A;">Barcelona, Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
